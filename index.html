@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="etcss.css">
+    <title>Image Navigation</title>
+
+</head>
+<body>
+
+    <div id="landing" class="page active">
+        <a href="selection.html">
+            <button id = "cracktocook">Crack to cook!</button>
+        </a>
+    </div>
+
+
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
