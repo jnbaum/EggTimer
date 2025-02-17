@@ -57,7 +57,7 @@ a #softboiled {
   color: #ffffff; 
   background-color: #ffaa43;
   border: none;
-  padding: 20px 150px;
+  padding: 100px 150px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -83,7 +83,7 @@ a #back1 {
 }
 
 a #medsoft {
-  margin-top: 20px;
+  margin-top: 200px;
   margin-bottom: 30px;
   margin-right: 30px;
   font-family: "History Sheeter", sans-serif;
@@ -91,7 +91,7 @@ a #medsoft {
   color: #ffffff;
   background-color: #ff9251;
   border: none;
-  padding: 20px 150px;
+  padding: 50px 150px;
   border-radius: 5px;
   cursor: pointer;
 }
